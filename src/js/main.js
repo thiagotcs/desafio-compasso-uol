@@ -15,5 +15,6 @@ function signin(e) {
     password.classList.remove('signin__input--error');
     disclaimer[0].style.visibility = 'hidden';
     disclaimer[1].style.visibility = 'hidden';
+    window.location.href = '../src/views/home.html';
   }
 }
