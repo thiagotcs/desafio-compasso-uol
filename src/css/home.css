@@ -192,6 +192,9 @@
 }
 
 @media only screen and (max-width: 1024px) {
+  body {
+    overflow-x: hidden;
+  }
   .header {
     flex-direction: column;
     position: relative;
