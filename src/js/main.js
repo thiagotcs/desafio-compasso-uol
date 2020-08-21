@@ -18,3 +18,8 @@ function signin(e) {
     window.location.href = '../src/views/home.html';
   }
 }
+
+function signout(e) {
+  e.preventDefault();
+  window.location.href = '../index.html';
+}
