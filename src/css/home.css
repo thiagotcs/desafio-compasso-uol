@@ -56,3 +56,35 @@
   line-height: 18px;
   text-align: center;
 }
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Mark Pro';
+  margin-top: 259px;
+}
+
+.content__text-container {
+  margin-right: 134px;
+  text-align: right;
+}
+
+.content__text-title {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 81px;
+}
+
+.content__text-title--first {
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.content__text-translate {
+  color: var(--text-color);
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 3px;
+}
