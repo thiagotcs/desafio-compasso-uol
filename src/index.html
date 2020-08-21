@@ -7,12 +7,44 @@
   <title>Compasso - UOL</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Compasso - UOL Front-End" />
+  <link href="http://db.onlinewebfonts.com/c/7200c6dd8ac604abe09f5159e53a40c0?family=Mark+Pro" rel="stylesheet" type="text/css" >
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/login.css">
+  <link rel="stylesheet" href="./css/variables.css">
 </head>
 
 <body>
   <noscript> You need to enable JavaScript to run this app. </noscript>
 
+  <div class="container">
+    <div class="signin">
+      <div class="signin__container">
+        <h1 class="signin__title">Olá,</h1>
+        <h2 class="signin__subtitle">Para continuar navegando de forma segura, efetue o login na rede.</h2>
+        <form class="signin__form">
+          <span class="signin__form--title">Login</span>
+          <div class="signin__input-container">
+            <input class="signin__input" type="email" placeholder="Usuário" name="user" id="user">
+            <img class="signin__input-icon" src="../assets/images/svg/icon-user.svg" title="ícone de usuário" />
+          </div>
+          <div class="signin__input-container">
+            <input class="signin__input" type="password" placeholder="Senha" name="password" id="password">
+            <img class="signin__input-icon" src="../assets/images/svg/icon-password.svg" title="ícone de cadeado" />
+          </div>
+          <p class="signin__disclaimer">Ops, usuário ou senha inválidos.</p>
+          <p class="signin__disclaimer">Tente novamente!</p>
+          <button class="signin__button" type="submit" onclick="signin(event)">Continuar</button>
+        </form>
+      </div>
+    </div>
+    <div class="signin__banner">
+      <img class="signin__banner--logo" src="../assets/images/svg/logo-compasso.svg" title="logo compasso" />
+    </div>
+  </div>
+
+
   <div id="app"></div>
+  <script src="./js/main.js"></script>
 </body>
 
 </html>

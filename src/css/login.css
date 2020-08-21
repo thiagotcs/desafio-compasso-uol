@@ -1,0 +1,121 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Mark Pro';
+}
+
+.signin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100vh;
+  background: linear-gradient(180deg, #33383D 0%, #1C1D20 100%);
+  box-shadow: 4px 4px 70px rgba(0, 0, 0, 0.25);
+}
+
+.signin__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.signin__title {
+  color: var(--label-color);
+  font-size: 60px;
+}
+
+.signin__subtitle {
+  color: var(--label-color);
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 17px;
+  max-width: 300px;
+}
+
+.signin__form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 135px;
+  width: 379px;
+}
+
+.signin__form--title {
+  color: var(--label-color);
+  font-size: 30px;
+  line-height: 38px;
+  margin-bottom: 32px;
+}
+
+.signin__input-container {
+  position: relative;
+}
+
+.signin__input {
+  border: 1px solid #FFFFFF;
+  transition: all 0.5s ease;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 50px;
+  padding: 20px;
+  background: transparent;
+  outline: none;
+  margin-bottom: 33px;
+  color: var(--label-color);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.signin__input::placeholder {
+  color: var(--label-color);
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.signin__input--error {
+  border: 1px solid var(--secondary-color);
+}
+
+.signin__input-icon {
+  position: absolute;
+  top: 20px;
+  right: 23px;
+}
+
+.signin__disclaimer {
+  visibility: hidden;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--secondary-color);
+}
+
+.signin__button {
+  background: linear-gradient(90deg, #FF2D04 0%, #C13216 100%);
+  box-shadow: inset 5px 5px 15px rgba(0, 0, 0, 0.15);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  color: #FFFFFF;
+  border-radius: 50px;
+  padding: 20px;
+  margin-top: 82px;
+}
+
+.signin__banner {
+  width: 50vw;
+  background: url('../../assets/images/png/home-photo.png');
+  background-size: cover;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.signin__banner--logo {
+  margin-top: 35px;
+}
